@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringController {
 
 	@RequestMapping("/hello")
-	public void hello() {
-		System.out.println("Hello Azure");
+	public String hello() {
+		return "Hello Azure";
 	}
 }
