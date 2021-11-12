@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'azure-microservice'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_ce47c6a1ff524cb98c58fcbe2f8fedee }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_da8826ffefa44e46ad8529d8b14e2515 }}
           package: '*.jar'
